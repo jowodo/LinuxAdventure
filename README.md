@@ -57,4 +57,11 @@ We are always looking for more creative ways to incorporate different commands a
 Linux-isms in this game. If you have an idea and are comfortable with git, feel free to
 make a pull request with any additional areas you had in mind!
 
- 
+### Frequently Asked Questions
+If you want to play this game on another architecture than `x86_64`, you need to recompile the executables with the `make` command. 
+
+If you are on alpine (includes `iSH` on iOS), install some dependencies for compiling and execute the make command:
+```
+apk add gcc maul-dev make
+make
+```
