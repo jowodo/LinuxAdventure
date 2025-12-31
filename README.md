@@ -64,6 +64,6 @@ If you want to play this game on another architecture than `x86_64`, you need to
 
 If you are on alpine (includes `iSH` on iOS), install some dependencies for compiling and execute the make command:
 ```
-apk add gcc maul-dev make
+apk add gcc musl-dev make
 make
 ```
